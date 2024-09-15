@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: APISpotterApp
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn core.wsgi --bind 0.0.0.0:$PORT
+    branch: main

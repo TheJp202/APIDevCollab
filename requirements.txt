@@ -1,0 +1,11 @@
+django
+django-environ
+django-tailwind
+djangorestframework
+django-cors-headers
+pillow
+channels
+channels_redis
+daphne
+psycopg2
+gunicorn
